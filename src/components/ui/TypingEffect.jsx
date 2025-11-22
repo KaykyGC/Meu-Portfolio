@@ -25,7 +25,6 @@ export default function TypingEffect({ text, speed = 100, delay = 0 }) {
       {displayedText}
       
       {/* O CURSOR */}
-      {/* Mudei de 'animate-pulse' para uma classe customizada 'cursor-blink' */}
       <span className="cursor-blink ml-1 font-bold text-blue-500">|</span>
 
       {/* CSS DA ANIMAÇÃO (Piscar Real) */}
@@ -40,4 +39,5 @@ export default function TypingEffect({ text, speed = 100, delay = 0 }) {
       `}</style>
     </span>
   );
+
 }
