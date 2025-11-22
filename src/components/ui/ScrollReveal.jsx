@@ -31,7 +31,7 @@ export default function ScrollReveal({ children, delay = 0 }) {
     return () => {
       observer.unobserve(element);
     };
-  }, []); // Não precisamos de dependências.
+  }, []); 
 
   return (
     <div
@@ -51,4 +51,5 @@ export default function ScrollReveal({ children, delay = 0 }) {
       {children}
     </div>
   );
+
 }
