@@ -1,7 +1,5 @@
 import React from 'react';
 import ScrollReveal from '../ui/ScrollReveal';
-// Mantenha suas importações de ícones aqui (FaPython, etc...)
-// Se estiver usando a versão sem ícones por enquanto, tudo bem.
 import { FaPython, FaReact, FaDatabase, FaRobot, FaChartBar } from 'react-icons/fa';
 import { SiPandas } from 'react-icons/si';
 
@@ -42,4 +40,5 @@ export default function Skills() {
       </div>
     </div>
   );
+
 }
